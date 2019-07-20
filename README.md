@@ -12,7 +12,7 @@ Presionando Ctrl en el elemento y arrastrar hasta la ventana del Controller
 
 ## Creación de Alerta
 
-´´´
+```
 @IBAction func boton(_ sender: UIButton) {
    //Crea una alerta con un titulo, mensaje y estilo
    //Existen dos estilos: .alert y .actionSheet
@@ -31,6 +31,6 @@ Presionando Ctrl en el elemento y arrastrar hasta la ventana del Controller
   present(alerta, animated: true, completion: nil)
 
 }
-´´´
+```
 
 
