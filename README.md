@@ -33,4 +33,25 @@ Presionando Ctrl en el elemento y arrastrar hasta la ventana del Controller
 }
 ```
 
+## Eliminación del Teclado
+
+Vamos a ver dos formas de eliminar el teclado de nuestra aplicación ya que una vez que este se carga no hay forma de quitarlo.
+
+1. La primera de ellas es cuando pulsamos en cualquier parte de la pantalla, es decir fuera del *TextField* para lo cual usamos la siguiente función.
+
+```
+//Función para eliminar el teclado de la pantalla
+//Tells this object that one or more new touches occurred in a view or window.
+override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+   self.view.endEditing(true)
+}
+```
+
+2. Podríamos querer implementar que después de presentar la alerta y pulsar en OK no nos reaparezca el teclado.
+Esto sucede por que el foco se mantiene en el *TextField*, al pulsar el botón debe perder el foco y eso se logra con:
+
+```
+//Notifies this object that it has been asked to relinquish its status as first responder in its window.
+nombre.resignFirstResponder()
+```
 

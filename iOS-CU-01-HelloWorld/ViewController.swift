@@ -19,6 +19,10 @@ class ViewController: UIViewController {
 
 
     @IBAction func boton(_ sender: UIButton) {
+        
+        //Notifies this object that it has been asked to relinquish its status as first responder in its window.
+        nombre.resignFirstResponder()
+        
         //Crea una alerta con un titulo, mensaje y estilo
         //Existen dos estilos: .alert y .actionSheet
         let alerta = UIAlertController(title: "Bienvenido", message: nombre.text, preferredStyle: .alert)
@@ -36,5 +40,12 @@ class ViewController: UIViewController {
         present(alerta, animated: true, completion: nil)
         
     }
+    
+    //Función para eliminar el teclado de la pantalla
+    //Tells this object that one or more new touches occurred in a view or window.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
 }
 
