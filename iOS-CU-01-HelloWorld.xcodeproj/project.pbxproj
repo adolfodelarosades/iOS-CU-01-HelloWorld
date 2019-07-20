@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B604AA22E329020033ECEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18B604A922E329020033ECEF /* README.md */; };
 		18D17CE622E31C31007A52D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17CE522E31C31007A52D1 /* AppDelegate.swift */; };
 		18D17CE822E31C31007A52D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17CE722E31C31007A52D1 /* ViewController.swift */; };
 		18D17CEB22E31C31007A52D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D17CE922E31C31007A52D1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B604A922E329020033ECEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		18D17CE222E31C31007A52D1 /* iOS-CU-01-HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CU-01-HelloWorld.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D17CE522E31C31007A52D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D17CE722E31C31007A52D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		18D17CE422E31C31007A52D1 /* iOS-CU-01-HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				18B604A922E329020033ECEF /* README.md */,
 				18D17CE522E31C31007A52D1 /* AppDelegate.swift */,
 				18D17CE722E31C31007A52D1 /* ViewController.swift */,
 				18D17CE922E31C31007A52D1 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				18D17CF022E31C47007A52D1 /* LaunchScreen.storyboard in Resources */,
 				18D17CED22E31C47007A52D1 /* Assets.xcassets in Resources */,
+				18B604AA22E329020033ECEF /* README.md in Resources */,
 				18D17CEB22E31C31007A52D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
