@@ -74,3 +74,24 @@ Estando en el LauchScreen.storyboard
 Listo eso es todo cuando ejecutemos nuestra APP ya vemos una LauchScreen y no solo una pantalla blanca.
 
 
+## AppIcon
+
+Aquí vamos a asociar un icono a nuestra APP.
+
+Si nos vamos a nuestros Assets y marcamos *AppIcon* observamos que se nos pide el icono en infinidad de tamaños.
+
+Para ayudar a crear todos estos iconos partiendo de una imagen, tenemos la página [makeappicon](https://makeappicon.com) la cual nos ayuda generando todos los tamaños de nuestro icon.
+
+Nos solicita una imagen base desde la cual generara todos los iconos, metemos *log.png*, cuando finaliza nos solicita nuestro correo y nos envia el archivo *logo.zip*.
+
+Una vez que descargamos logo.zip y lo desempaquetamos, observamos que tenemos todos los iconos para varias plataformas entre ellas Android e iOS.
+
+Una vez que ya tenemos nuestros iconos regresamos a XCode nos metemos en Assets:
+
+1. Eliminamos AppIcon
+
+2. Arrastramos la carpeta *AppIcon.appiconset* dentro de los Assets (se encuentra en iOS dentro de logo.zip)
+
+3. Eliminamos todos los iconos que se nos marcan como *Unassigned*
+
+Al generar nuevamente la APP ya nos pone un icono en nuestra APP
