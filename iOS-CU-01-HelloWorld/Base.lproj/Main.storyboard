@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,11 +15,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_CU_01_HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Y7-Yn-RxZ">
-                                <rect key="frame" x="174" y="249" width="67" height="30"/>
+                                <rect key="frame" x="122" y="260" width="130" height="30"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                 <state key="normal" title="Click aquí"/>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escribe tu nombre ..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4uw-N2-gwm">
-                                <rect key="frame" x="20" y="141" width="374" height="30"/>
+                                <rect key="frame" x="16" y="152" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -35,12 +35,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5Y7-Yn-RxZ" firstAttribute="top" secondItem="4uw-N2-gwm" secondAttribute="bottom" constant="78" id="C15-PA-O8Y"/>
-                            <constraint firstItem="4uw-N2-gwm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="Eaf-8S-TS4"/>
-                            <constraint firstItem="4uw-N2-gwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GK5-Yp-Baq"/>
-                            <constraint firstItem="5Y7-Yn-RxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="IN2-SV-OXm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Y7-Yn-RxZ" secondAttribute="trailing" constant="173" id="lWm-Nd-7ON"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4uw-N2-gwm" secondAttribute="trailing" constant="20" id="uhd-ZN-lOd"/>
+                            <constraint firstItem="5Y7-Yn-RxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="1v8-eb-RSA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Y7-Yn-RxZ" secondAttribute="bottom" constant="488" id="Fi9-Ke-evW"/>
+                            <constraint firstItem="5Y7-Yn-RxZ" firstAttribute="top" secondItem="4uw-N2-gwm" secondAttribute="bottom" constant="78" id="Hz8-97-hBd"/>
+                            <constraint firstItem="4uw-N2-gwm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UtK-LA-3mL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4uw-N2-gwm" secondAttribute="trailing" constant="16" id="acy-IW-Ot7"/>
+                            <constraint firstItem="4uw-N2-gwm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="gj4-ZH-gST"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Y7-Yn-RxZ" secondAttribute="trailing" constant="123" id="uX4-P6-3dt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -50,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="118.52678571428571"/>
+            <point key="canvasLocation" x="130.40000000000001" y="117.48768472906404"/>
         </scene>
     </scenes>
 </document>
